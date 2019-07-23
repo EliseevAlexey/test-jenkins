@@ -8,5 +8,7 @@ public class ApplicationTest {
     @Test
     public void test() {
         System.out.println("Hello from test");
+        System.out.println("Some changes");
+        throw new RuntimeException();
     }
 }
